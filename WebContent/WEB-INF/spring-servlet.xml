@@ -21,9 +21,9 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     
 <bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">  
 <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>  
-<property name="url" value="jdbc:mysql://localhost:3306/shoestoredb?autoReconnect=true&amp;useSSL=false&amp;useLegacyDatetimeCode=true"></property>  
-<property name="username" value="root"></property>  
-<property name="password" value="bibavix"></property>  
+<property name="url" value="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/heroku_adb78f46594cf74?autoReconnect=true&amp;useSSL=false&amp;useLegacyDatetimeCode=true"></property>  
+<property name="username" value="bbf033dfddedd2"></property>  
+<property name="password" value="e4bccc55"></property>  
 </bean>  
 
 
