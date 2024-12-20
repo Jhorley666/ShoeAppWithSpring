@@ -16,7 +16,7 @@
       <maven-dependecy-plugin.version>2.10</maven-dependecy-plugin.version>
       <webapp-runner-tomcat.version>8.0.30.2</webapp-runner-tomcat.version>
       <maven-tomcat-plugin>2.2</maven-tomcat-plugin>
-      <spring-version>5.2.3</spring-version>
+      <spring-version>6.1.14</spring-version>
   </properties>
   
   <build>
