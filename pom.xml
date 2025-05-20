@@ -16,6 +16,7 @@
       <maven-dependecy-plugin.version>2.10</maven-dependecy-plugin.version>
       <webapp-runner-tomcat.version>8.0.30.2</webapp-runner-tomcat.version>
       <maven-tomcat-plugin>2.2</maven-tomcat-plugin>
+      <spring-version>6.1.14</spring-version>
   </properties>
   
   <build>
@@ -71,7 +72,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>5.1.1.RELEASE</version>
+    <version>${spring-version}</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
@@ -96,13 +97,13 @@
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.11</version>
+    <version>8.0.28</version>
 </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-jdbc</artifactId>
-    <version>5.1.1.RELEASE</version>
+    <version>${spring-version}</version>
 </dependency>
 </dependencies>
 
